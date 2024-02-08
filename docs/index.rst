@@ -3,12 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to E-Lagori Documentation's documentation!
+E-Lagori Documentation
 ==================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :caption: Contents:
 
    introduction/index
+   processor_boards/index
+   sensor_boards/index
 
