@@ -28,3 +28,11 @@ Following problems are typically faced when designing a new prototype
 7. Errors require remaking the complete PCB and Long time lost in iterations.
 
 The primary Question which triggered development of E-LAGORi is "Can we develop an ecosystem where all the above issues are solved and Evaluation boards of multiple companies can be made intecompatible?"
+
+Lets take a step back
+
+At present all systems are composed of Analog section, Digital section and power section.
+Analog section typically has cascade structure. 
+Digital and power sections has bus structure. 
+
+E-Lagori incorporates these basic structures to create a comprahensive stackable architecture where you can select the route of signal path across the modules using a conductive ink. This architecture allows you to decide which signals can enter and exit the module and continue propagation along the system. More about the architecture in the "Architecture of E-LAGORi module" section
