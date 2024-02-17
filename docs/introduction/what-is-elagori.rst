@@ -5,7 +5,7 @@ Do you have new amazing product in mind that could solve a problem that you and 
 
 Typically these are the questions faced by every developer and project mangement team irrespective of whether it is a small hobby project or large team accomplisihing complex design. Typical process of developing product follows below cycle and time line
 
-.. image:: ../images/Time-cycle.png
+.. image:: ../images/Timecycle.png
    :width: 300pt
 
 We may bo back to previous steps at any point and repeat the process.
