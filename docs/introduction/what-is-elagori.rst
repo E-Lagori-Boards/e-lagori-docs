@@ -5,7 +5,8 @@ Do you have new amazing product in mind that could solve a problem that you and 
 
 Typically these are the questions faced by every developer and project mangement team irrespective of whether it is a small hobby project or large team accomplisihing complex design. Typical process of developing product follows below cycle and time line
 
-Concept Block diagram development - 1 week Circuit development - 8.6 weeks Schematic development - 1 weeks Layout development - 4.3 weeks Procurement and Fabrication - 13 weeks Board bring up - 4.3 weeks Software interface and testing - 21 weeks Total - 53 weeks
+.. image:: ../images/Types-cycle.png
+   :width: 300pt
 
 We may bo back to previous steps at any point and repeat the process.
 
