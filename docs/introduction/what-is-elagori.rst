@@ -1,5 +1,5 @@
 ++++++++++++++++
-Why E-Lagori
+Why E-Lagori?
 ++++++++++++++++
 Do you have new amazing product in mind that could solve a problem that you and the world has been facing but dont have suffecient knowledge of electronics to make it happen? Do you have project that is so large that you are stuck up with a bundle of criscrossing wires which may fall apart any time? or Do you want save time and money spent making custom boards which is long lead time process and involves multiple iterations?
 
@@ -24,7 +24,10 @@ The primary Question which triggered development of E-LAGORi is "Can we develop 
 
 Lets take a step back
 
-At present all systems are composed of Analog section, Digital section and power section. Analog section typically has cascade structure. Digital and power sections has bus structure.
+At present all systems are composed of Analog section, Digital section and power section. Digital and power sections has bus structure and Analog section typically has cascade structure. 
+
+.. image:: ../images/Types-of-systems.png
+   :width: 300pt
 
 E-Lagori incorporates these basic structures to create a comprahensive stackable architecture where you can select the route of signal path across the modules using a conductive ink. This architecture allows you to decide which signals can enter and exit the module and continue propagation along the system. More about the architecture in the "Architecture of E-LAGORi module" section
 
@@ -42,9 +45,9 @@ Architecture of E-LAGORi module
 
 Each module consists of a PCB which has 2 sides named as Side I and Side O, each side has 3 sections. Three sections being the Signal IO section, Circuit implementation section and Bus section as shown in the figure 1. The front view of each module is also shown in the figure 2.
 
-.. image:: ../images/Side-I-sections-282x300.png
+.. image:: ../images/Side-I.png
    :width: 300pt
    
-.. image:: ../images/Side-O-sections-294x300.png
+.. image:: ../images/Side-O.png
    :width: 300pt
    
