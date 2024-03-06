@@ -13,8 +13,8 @@
      "category": "ESP32",
      "url": "https://github.com/E-Lagori-Boards/D_ESP_WVR/releases/download/D_ESP_WVR_1_1_0/D_ESP_WVR_1_1_0.zip",
      "archiveFileName": "D_ESP_WVR_1_1_0.zip",
-     "checksum": "SHA-256:feaacb6ef40667df41ab3d73d8623258fb778e1d3e42189b4b32d937d759db02",
-     "size": "17387335",
+     "checksum": "SHA-256:7e30cae55be773d3d7bc44e1e43208be5ba41d14a9b836a8e230a6fe8bd22ac8",
+     "size": "17384592",
      "boards": [
       {
        "name": "D.ESP.WVR"
