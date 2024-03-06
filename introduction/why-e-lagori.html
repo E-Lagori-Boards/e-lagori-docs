@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>&lt;no title&gt; &mdash; E-Lagori Documentation 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=8d563738"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            E-Lagori Documentation
+              <img src="../_static/png-4.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../processor_boards/index.html">List of Processor Boards</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sensor_boards/index.html">List of Sensor Boards</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">E-Lagori Documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">&lt;no title&gt;</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/introduction/why-e-lagori.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <p>Do you have new amazing product in mind that could solve a problem that you and the world has been facing but dont have suffecient knowledge of electronics to make it happen?
+Do you have project that is so large that you are stuck up with a bundle of criscrossing wires which may fall apart any time?
+or Do you want save time and money spent making custom boards which is long lead time process and involves multiple iterations?</p>
+<p>Typically these are the questions faced by every developer and project mangement team irrespective of whether it is a small hobby project  or large team accomplisihing complex design. Typical process of developing product follows below cycle and time line</p>
+<p>Concept Block diagram development - 1 week
+Circuit development - 8.6 weeks
+Schematic development - 1 weeks
+Layout development - 4.3 weeks
+Procurement and Fabrication - 13 weeks
+Board bring up - 4.3 weeks
+Software  interface and testing - 21 weeks
+Total - 53 weeks</p>
+<p>We may bo back to previous steps at any point and repeat the process.</p>
+<p>Typical way yo reduce the risk of failure is to use the Evaluation boards and DIY boards which at present are not compatiable with each other and hence leads to large volume of wires for interconnectivity.</p>
+<p>Following problems are typically faced when designing a new prototype</p>
+<ol class="arabic simple">
+<li><p>Systems cannot be built with Eval boards, which forces Custom design too early in the design cycle even before Proof of concept is demonstrated.</p></li>
+<li><p>Co-design from multiple streams like mechanical eng etc required too early in the design leading to multiple iterations.</p></li>
+<li><p>High prototype production cost.</p></li>
+<li><p>Modifications due to change in specifications results in redesign.</p></li>
+<li><p>Time taken for small batch production is significantly high and most EMS manufacturers are not interested.</p></li>
+<li><p>Significant wastage of components and resources when iterations are required.</p></li>
+<li><p>Errors require remaking the complete PCB and Long time lost in iterations.</p></li>
+</ol>
+<p>The primary Question which triggered development of E-LAGORi is “Can we develop an ecosystem where all the above issues are solved and Evaluation boards of multiple companies can be made intecompatible?”</p>
+<p>Lets take a step back</p>
+<p>At present all systems are composed of Analog section, Digital section and power section.
+Analog section typically has cascade structure.
+Digital and power sections has bus structure.</p>
+<p>E-Lagori incorporates these basic structures to create a comprahensive stackable architecture where you can select the route of signal path across the modules using a conductive ink. This architecture allows you to decide which signals can enter and exit the module and continue propagation along the system. More about the architecture in the “Architecture of E-LAGORi module” section</p>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Errol Joshua.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

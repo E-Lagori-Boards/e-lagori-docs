@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arduino &mdash; E-Lagori Documentation 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../_static/documentation_options.js?v=8d563738"></script>
+        <script src="../../_static/doctools.js?v=888ff710"></script>
+        <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="D.TEJ.32" href="../d_tej_32/index.html" />
+    <link rel="prev" title="D.ESP.WVR" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            E-Lagori Documentation
+              <img src="../../_static/png-4.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../introduction/index.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">List of Processor Boards</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">D.ESP.WVR</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Arduino</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#prerequisites">Prerequisites:</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#installation-steps">Installation Steps</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#troubleshooting">Troubleshooting</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../d_tej_32/index.html">D.TEJ.32</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../sensor_boards/index.html">List of Sensor Boards</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">E-Lagori Documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">List of Processor Boards</a></li>
+          <li class="breadcrumb-item"><a href="index.html">D.ESP.WVR</a></li>
+      <li class="breadcrumb-item active">Arduino</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/processor_boards/d_esp_wvr/installation.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="arduino">
+<h1>Arduino<a class="headerlink" href="#arduino" title="Link to this heading"></a></h1>
+<section id="prerequisites">
+<h2>Prerequisites:<a class="headerlink" href="#prerequisites" title="Link to this heading"></a></h2>
+<dl class="simple">
+<dt>Arduino IDE:</dt><dd><p>Download and install the latest version of the Arduino IDE from <a class="reference external" href="https://www.arduino.cc/en/software">https://www.arduino.cc/en/software</a>
+A compatible USB cable to connect your board to your computer.</p>
+</dd>
+</dl>
+</section>
+<section id="installation-steps">
+<h2>Installation Steps<a class="headerlink" href="#installation-steps" title="Link to this heading"></a></h2>
+<ol class="arabic">
+<li><p>Add Board Manager URLs</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Open your Arduino IDE and go to File &gt; Preferences.</p></li>
+<li><p>Locate the Additional Board Manager URLs field.</p></li>
+<li><p>Paste the following URLs, separated by commas if you have other URLs present:</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">https://raw.githubusercontent.com/E-Lagori-Boards/e-lagori-docs/main/package_e-lagori.json</span></code></p></li>
+<li><p>Press the “OK” button to save changes.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Install Board Packages</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Navigate to Tools &gt; Board &gt; Boards Manager.</p></li>
+<li><p>Search for “E-Lagori” and install the package specifically for E-Lagori boards. Make sure you select the latest version available.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Select Your Board</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Go to Tools &gt; Board and scroll to the “E-Lagori Boards” section.</p></li>
+<li><p>Choose E-Lagori D_ESP_WVR from the list of boards.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Select the Port</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Connect your E-Lagori D_ESP_WVR board to your computer via the USB cable.</p></li>
+<li><p>Go to Tools &gt; Port and select the port where your board is connected. On Windows, it will typically be something like “COM3”; on macOS or Linux, it may look like “/dev/ttyUSB0”.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+<p><strong>You’re Ready to Go!</strong></p>
+<p>You’ve successfully installed the E-Lagori D_ESP_WVR board in your Arduino IDE. Now try following these steps to confirm proper installation:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Open the “BoardTest” example code in the Arduino IDE (File &gt; Examples &gt; D_ESP_WVR &gt; BoardTest)</p></li>
+<li><p>Click the Upload button.</p></li>
+</ol>
+</div></blockquote>
+<p>If the code uploads without errors and the Serial Monitor will show the Module details, the installation was successful!</p>
+</section>
+<section id="troubleshooting">
+<h2>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>If you encounter issues, double-check the URLs entered in the Boards Manager URLs field.</p></li>
+<li><p>Ensure your USB cable is functional and properly connected.</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="D.ESP.WVR" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../d_tej_32/index.html" class="btn btn-neutral float-right" title="D.TEJ.32" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Errol Joshua.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
